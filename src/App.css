@@ -1,0 +1,85 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.box {
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-group {
+	padding: 1rem;
+	width: fit-content;
+	height: 150px;
+	gap: 0;
+	margin: 0 auto 1rem auto;
+}
+
+.tx {
+	width: 100px;
+	height: 100px;
+}
+
+.amp {
+	display: flex;
+	flex-direction: column;
+	margin-top: -20px;
+}
+
+.amp-group {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.add-icon {
+	margin: 0 auto;
+	color: white;
+}
+
+.remove-icon {
+	margin: 0 auto;
+	color: red;
+}
+
+.line {
+	min-width: 100px;
+	height: 1px;
+	background-color: white;
+}
+
+.atn-line {
+	width: 80px;
+	height: 5px;
+	margin: 0 auto -3px auto;
+	background-color: white;
+}
+
+.column-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.input-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 80px;
+	gap: 1rem;
+}
+
+p {
+	color: white !important;
+}
+
+fieldset {
+	border: 1px solid white !important;
+}
