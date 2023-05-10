@@ -1,6 +1,5 @@
 import { useState } from "react";
 import IconButton from "@mui/material/IconButton";
-import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 
 import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
@@ -9,11 +8,11 @@ import RemoveCircleOutlineRoundedIcon from "@mui/icons-material/RemoveCircleOutl
 
 import "./App.css";
 
-interface Tx {
-	output: number;
-	type: string;
-	sn: number;
-}
+// interface Tx {
+// 	output: number;
+// 	type: string;
+// 	sn: number;
+// }
 
 interface Amplificador {
 	id: number;
@@ -34,11 +33,6 @@ interface Atenuador {
 }
 
 export function App() {
-	const [tx, setTx] = useState<Tx>({
-		output: 0,
-		type: "dB",
-		sn: 0,
-	});
 	const [amplificadores, setAmplificadores] = useState<Amplificador[]>([]);
 	const [atenuadores, setAtenuadores] = useState<Atenuador[]>([
 		{
