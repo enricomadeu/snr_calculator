@@ -15,14 +15,19 @@
 .box-group {
 	padding: 1rem;
 	width: fit-content;
+	max-width: 100%;
+	overflow: auto;
 	height: 150px;
 	gap: 0;
 	margin: 0 auto 1rem auto;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
 }
 
 .tx {
-	width: 100px;
-	height: 100px;
+	min-width: 100px;
+	min-height: 100px;
 }
 
 .amp {
@@ -71,9 +76,12 @@
 .input-group {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	margin: 0 80px;
+	margin: 20px;
 	gap: 1rem;
+}
+
+h5 {
+	width: 60px;
 }
 
 p {
