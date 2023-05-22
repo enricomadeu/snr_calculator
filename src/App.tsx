@@ -749,7 +749,7 @@ export function App() {
 								<Grid item xs={2}>
 									<h5>Atn {atn.id === 0 ? "TX" : atn.id}</h5>
 								</Grid>
-								<Grid item xs={6}>
+								<Grid item xs={7}>
 									{atn.active && (
 										<>
 											<TextField
